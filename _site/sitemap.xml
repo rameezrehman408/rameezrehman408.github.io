@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>/authors/jill.html</loc>
+<lastmod>2021-01-18T12:02:58+05:00</lastmod>
+</url>
+<url>
+<loc>/authors/rameez.html</loc>
+<lastmod>2021-01-18T12:02:58+05:00</lastmod>
+</url>
+<url>
+<loc>/2018/08/21/apples.html</loc>
+<lastmod>2018-08-21T00:00:00+05:00</lastmod>
+</url>
+<url>
+<loc>/2021/01/17/site_moved_to_jekyll_part_1.html</loc>
+<lastmod>2021-01-17T00:00:00+05:00</lastmod>
+</url>
+<url>
+<loc>/about.html</loc>
+</url>
+<url>
+<loc>/blog.html</loc>
+</url>
+<url>
+<loc>/</loc>
+</url>
+<url>
+<loc>/staff.html</loc>
+</url>
+</urlset>
