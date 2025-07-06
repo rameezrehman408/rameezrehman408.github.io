@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Rameez Security Blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Rameez Security Blog</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 17 Feb 2025 20:23:31 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PKI Training Registration Authority</title>
+      <link>http://localhost:1313/posts/pkitraining-registration_authority/</link>
+      <pubDate>Mon, 17 Feb 2025 20:23:31 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pkitraining-registration_authority/</guid>
+      <description>&lt;h1 id=&#34;functions&#34;&gt;Functions&lt;/h1&gt;&#xA;&lt;h1 id=&#34;roles&#34;&gt;Roles&lt;/h1&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Super Administrator:&lt;/li&gt;&#xA;&lt;li&gt;Security Officer:&lt;/li&gt;&#xA;&lt;li&gt;Admin Registration Authority Officer (RAO):&#xA;Will have a High Trust Certificate issuing process. and not the natural person certificates.&lt;/li&gt;&#xA;&lt;li&gt;Enterprise RAO:&#xA;Also known as Local Registration Authority. This role can be deployed in a client enterprise for convenience of customer handling for the provided service.&lt;/li&gt;&#xA;&lt;li&gt;Auditor:&#xA;This has the view of reviewing logs.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;High Trust Certificates:&#xA;SSL certificate, Code-Signing or e-Seal certificate are called high trust certificates because they are issued to the Organizations and can only be issued by the Admin RAO.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKI Training - ITIL</title>
+      <link>http://localhost:1313/posts/pki-training-itil/</link>
+      <pubDate>Mon, 26 Sep 2022 00:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pki-training-itil/</guid>
+      <description>&lt;p&gt;Following is a list of Services employed via ITIL:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Incident Management:&lt;/li&gt;&#xA;&lt;li&gt;Event Management:&lt;/li&gt;&#xA;&lt;li&gt;Change/Release Management:&lt;/li&gt;&#xA;&lt;li&gt;Asset Management:&lt;/li&gt;&#xA;&lt;li&gt;Configuration Management:&lt;/li&gt;&#xA;&lt;li&gt;Problem Management:&lt;/li&gt;&#xA;&lt;li&gt;Knowledge Management:&lt;/li&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;li&gt;End Point Protection&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Knowledgebase: Knowledge articles are created to avoid such issues in the future.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Q: Why are we employing ITIL and not some other process (i.e. COBIT)?&#xA;A: Deployment is not an actual/certifiable ITIL deployment, but to establish a formal minimal deployment of all relevant management and services.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKI Training - Day3 - Advanced Cryptography 2</title>
+      <link>http://localhost:1313/posts/pki-training-day-3/</link>
+      <pubDate>Thu, 22 Sep 2022 00:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pki-training-day-3/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Q: Name the extensions in the Certificate.&#xA;Ans: AIA:&#xA;CDP: CRL Distribution Point&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h1 id=&#34;public-key-cryptography-standards-pkcs&#34;&gt;Public Key Cryptography standards (PKCS)&lt;/h1&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PKCS# 1:&#xA;Raw Signature standard. This is then used with PKCS# 7 to make it meaningful.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;PKCS# 7: Cryptographic Message Syntax Standard&#xA;Standard describes general syntax for data that may have cryptography applied to it, such as digital signatures and digital envelopes. Also known as CMS - Cryptographic Message Syntax (RFC 5652).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKI Training Difference between Cryptography and Encryption</title>
+      <link>http://localhost:1313/posts/pkitraining-difference-between-cryptography-and-encryption/</link>
+      <pubDate>Wed, 21 Sep 2022 00:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pkitraining-difference-between-cryptography-and-encryption/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Cryptography:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The discipline that embodies the principles, means, and methods for providing information security, including confidentiality, data integrity, source authentication, and non-repudiation.&#xA;Source(s):&#xA;NIST SP 800-175B Rev. 1 under Cryptography&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;It is to be noted that Cryptography provides not only encryption but many other services.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Encryption:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Cryptographic transformation of data (called “plaintext”) into a form (called “ciphertext”) that conceals the data’s original meaning to prevent it from being known or used. If the transformation is reversible, the corresponding reversal process is called “decryption,” which is a transformation that restores encrypted data to its original state. Source(s):&#xA;NIST SP 800-82 Rev. 2 under Encryption from RFC 4949&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;ol start=&#34;2&#34;&gt;&#xA;&lt;li&gt;Any procedure used in cryptography to convert plain text into cipher text to prevent anyone but the intended recipient from reading that data.  NIST SP 800-101 Rev. 1 under Encryption. NIST SP 800-72 under Encryption&lt;/li&gt;&#xA;&lt;/ol&gt;&lt;/blockquote&gt;&#xA;&lt;p&gt;Following are the domains of Cryptography:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>PKI Training Cryptography - Day2</title>
+      <link>http://localhost:1313/posts/pki-training-cryptography-2/</link>
+      <pubDate>Tue, 20 Sep 2022 00:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/pki-training-cryptography-2/</guid>
+      <description>&lt;h1 id=&#34;certificate-path-validation&#34;&gt;Certificate Path Validation:&lt;/h1&gt;&#xA;&lt;p&gt;This is performed for all the identities of the chain. It commonly checks for the following things:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;build &amp;amp; validate the certificate chain from the user certificate upto the trusted root.&lt;/li&gt;&#xA;&lt;li&gt;Check for intended purpose&lt;/li&gt;&#xA;&lt;li&gt;Check for expiry or &amp;ldquo;not yet valid&amp;rdquo;&lt;/li&gt;&#xA;&lt;li&gt;Check for revoked certificate&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;h1 id=&#34;certificate-life-cycle&#34;&gt;Certificate Life Cycle&lt;/h1&gt;&#xA;&lt;p&gt;Following are the&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Register&lt;/li&gt;&#xA;&lt;li&gt;Issue&lt;/li&gt;&#xA;&lt;li&gt;Distribute/Store&lt;/li&gt;&#xA;&lt;li&gt;Use (Sign/Encrypt)&lt;/li&gt;&#xA;&lt;li&gt;Expire/Revoke&lt;/li&gt;&#xA;&lt;li&gt;Renew/Rekey&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process?&#xA;Ans:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Preparing for CEH practical</title>
+      <link>http://localhost:1313/posts/preparing-for-ceh-practical/</link>
+      <pubDate>Mon, 07 Mar 2022 00:00:00 +0500</pubDate>
+      <guid>http://localhost:1313/posts/preparing-for-ceh-practical/</guid>
+      <description>&lt;p&gt;Ahoy Mates!&#xA;I have always been interested in Pen-testing but it hasn&amp;rsquo;t been my day job yet. Avoiding the Certs vs. skills discussion, I want to acquire 1-2 basic pen-testing certs to round out my profile in Cyber Security. Considering that, last year I applied for EC-Council&amp;rsquo;s CEH scholarship and received the scholarship and I must appear for the practical exam within 1-year. Since then it has been 3-4 months without any progress on the preparation.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

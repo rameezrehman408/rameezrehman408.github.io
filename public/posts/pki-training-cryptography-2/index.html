@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>PKI Training Cryptography - Day2 | Rameez Security Blog</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Certificate Path Validation:
+This is performed for all the identities of the chain. It commonly checks for the following things:
+
+build &amp; validate the certificate chain from the user certificate upto the trusted root.
+Check for intended purpose
+Check for expiry or &ldquo;not yet valid&rdquo;
+Check for revoked certificate
+
+Certificate Life Cycle
+Following are the
+
+Register
+Issue
+Distribute/Store
+Use (Sign/Encrypt)
+Expire/Revoke
+Renew/Rekey
+
+
+Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process?
+Ans:">
+    <meta name="generator" content="Hugo 0.147.9">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    
+<link rel="stylesheet" href="/ananke/css/main.min.css" >
+
+
+
+
+    
+
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/pki-training-cryptography-2/">
+    
+
+    <meta property="og:url" content="http://localhost:1313/posts/pki-training-cryptography-2/">
+  <meta property="og:site_name" content="Rameez Security Blog">
+  <meta property="og:title" content="PKI Training Cryptography - Day2">
+  <meta property="og:description" content="Certificate Path Validation: This is performed for all the identities of the chain. It commonly checks for the following things:
+build &amp; validate the certificate chain from the user certificate upto the trusted root. Check for intended purpose Check for expiry or “not yet valid” Check for revoked certificate Certificate Life Cycle Following are the
+Register Issue Distribute/Store Use (Sign/Encrypt) Expire/Revoke Renew/Rekey Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process? Ans:">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2022-09-20T00:00:00+05:00">
+    <meta property="article:modified_time" content="2022-09-20T00:00:00+05:00">
+
+  <meta itemprop="name" content="PKI Training Cryptography - Day2">
+  <meta itemprop="description" content="Certificate Path Validation: This is performed for all the identities of the chain. It commonly checks for the following things:
+build &amp; validate the certificate chain from the user certificate upto the trusted root. Check for intended purpose Check for expiry or “not yet valid” Check for revoked certificate Certificate Life Cycle Following are the
+Register Issue Distribute/Store Use (Sign/Encrypt) Expire/Revoke Renew/Rekey Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process? Ans:">
+  <meta itemprop="datePublished" content="2022-09-20T00:00:00+05:00">
+  <meta itemprop="dateModified" content="2022-09-20T00:00:00+05:00">
+  <meta itemprop="wordCount" content="499">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="PKI Training Cryptography - Day2">
+  <meta name="twitter:description" content="Certificate Path Validation: This is performed for all the identities of the chain. It commonly checks for the following things:
+build &amp; validate the certificate chain from the user certificate upto the trusted root. Check for intended purpose Check for expiry or “not yet valid” Check for revoked certificate Certificate Life Cycle Following are the
+Register Issue Distribute/Store Use (Sign/Encrypt) Expire/Revoke Renew/Rekey Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process? Ans:">
+
+	
+  </head><body class="ma0 avenir bg-near-white development">
+
+    
+   
+  
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        Rameez Security Blog
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  
+  <article class="flex-l mw8 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked ttu">
+          
+        Posts
+      </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">PKI Training Cryptography - Day2</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2022-09-20T00:00:00+05:00">September 20, 2022</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-two-thirds-l"><h1 id="certificate-path-validation">Certificate Path Validation:</h1>
+<p>This is performed for all the identities of the chain. It commonly checks for the following things:</p>
+<ol>
+<li>build &amp; validate the certificate chain from the user certificate upto the trusted root.</li>
+<li>Check for intended purpose</li>
+<li>Check for expiry or &ldquo;not yet valid&rdquo;</li>
+<li>Check for revoked certificate</li>
+</ol>
+<h1 id="certificate-life-cycle">Certificate Life Cycle</h1>
+<p>Following are the</p>
+<ol>
+<li>Register</li>
+<li>Issue</li>
+<li>Distribute/Store</li>
+<li>Use (Sign/Encrypt)</li>
+<li>Expire/Revoke</li>
+<li>Renew/Rekey</li>
+</ol>
+<blockquote>
+<p>Q: Can ECAC issue an Accreditation Certificate for the usage of Signing process?
+Ans:</p></blockquote>
+<blockquote>
+<p>Q: Difference between Re-key and Re-new of a Certificate?
+A: Re-newal of a certificate mean that the same key is used for issuance of a new certificate.</p></blockquote>
+<h1 id="pki-trust-model">PKI Trust Model</h1>
+<ul>
+<li>Single CA PKI:
+<ul>
+<li>Contains single CA, having the role of root CA and issuing CA.</li>
+<li>All users of PKI place their trust on this CA.</li>
+<li>It is not a scalable architecture.</li>
+<li>Usually used within a small organization.</li>
+</ul>
+</li>
+<li>Hierarchical PKI:
+<ul>
+<li>Hierarchical architecture is constructed with subordinate CA relationship.</li>
+<li>Ideal within organization where multiple CAs</li>
+<li>Users trust single root CA</li>
+<li>Subordinate CAs may issue certificates to users or other CAs</li>
+<li>Trust relationship is specified in only one way architecture.</li>
+</ul>
+</li>
+<li>Mesh/Bridge or Peer-to-Peer PKI:
+*</li>
+</ul>
+<p>Within a certificate an entry is as following:</p>
+<blockquote>
+<p><strong>Basic Constraint</strong> Path Length Constraint = None</p></blockquote>
+<p>None means that their is no constraint, but if a numeric value is placed here, the hierarchical levels can&rsquo;t be created after that. This may be used to restrict sub-CAs accreditation process.</p>
+<h1 id="managed-certificates">Managed certificates</h1>
+<p>In any browser/OS has a certificates repository which can be viewed to understand/visualize the trusted root repository.</p>
+<h1 id="pki-development">PKI Development</h1>
+<p>All the following libraries are high level libraries and available for PKI development. Normally, business use-cases are generated by the developer and use these following libraries for the Crypto Functions:</p>
+<ul>
+<li>OpenSSL:
+<ul>
+<li>As a library</li>
+<li>CLI Based</li>
+</ul>
+</li>
+<li>BouncyCastle:
+<ul>
+<li>Java and .Net variants available</li>
+<li></li>
+</ul>
+</li>
+<li>IAIK from TU Graz
+<ul>
+<li>This has more features from the development perspective.</li>
+<li>Strong support &amp; strong documentation</li>
+<li>Commercial purpose require purchase of the library</li>
+</ul>
+</li>
+</ul>
+<p>{::comment}
+You’ll find this post in your <code>_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code>jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+<p><code>YEAR-MONTH-DAY-title.MARKUP</code></p>
+<p>Where <code>YEAR</code> is a four-digit number, <code>MONTH</code> and <code>DAY</code> are both two-digit numbers, and <code>MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<p>Jekyll also offers powerful support for code snippets:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-ruby" data-lang="ruby"><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">print_hi</span>(name)
+</span></span><span style="display:flex;"><span>  puts <span style="color:#e6db74">&#34;Hi, </span><span style="color:#e6db74">#{</span>name<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">end</span>
+</span></span><span style="display:flex;"><span>print_hi(<span style="color:#e6db74">&#39;Tom&#39;</span>)
+</span></span><span style="display:flex;"><span><span style="color:#75715e">#=&gt; prints &#39;Hi, Tom&#39; to STDOUT.</span></span></span></code></pre></div>
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+<p>{:/comment}</p>
+<ul class="pa0">
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l">
+
+
+
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  Rameez Security Blog 2025 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+
+  </body>
+</html>
