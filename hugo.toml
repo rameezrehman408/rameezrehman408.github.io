@@ -1,4 +1,66 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'Rameez Security Blog'
-theme = 'ananke'
+baseURL = "https://rameezrehman408.github.io/"
+languageCode = "en-us"
+# theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
+resourceDir = "../resources"
+
+[module]
+[[module.imports]]
+disable = false
+ignoreConfig = false
+ignoreImports = false
+path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Pagination.pagerSize = 5                  # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = "G-QMSKCKXMJG"
+enableRobotsTXT = true
+
+[languages]
+[languages.en]
+title = "Syed Rameez Rehman"
+#title = "Ananke"
+weight = 1
+contentDir = "content/"
+
+# languageDirection = 'rtl' for Right-To-Left languages
+#[languages.fr]
+#title = "Ananke Fr"
+#weight = 2
+#contentDir = "content/fr"
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[params]
+subtitle = ""
+text_color = ""
+author = "Rameez"
+favicon = "/resources/Formal_Pic.jpg"
+site_logo = "/resources/Formal_Pic.jpg"
+
+  [params.contact]
+  email = "rameezrehman408@gmail.com"
+
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-black"
+recent_posts_number = 5
+show_reading_time = true
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/rameezrehman408"
+
+[params.ananke.social.linkedin]
+username = "Syed Rameez Rehman"
+profilelink = "https://linkedin.com/in/rameez-infosec/"
+
+[ananke.social.follow]
+new_window_icon = false
+networks = [
+  "facebook",
+  "bluesky",
+  "linkedin"
+]
