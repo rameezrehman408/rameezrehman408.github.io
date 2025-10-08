@@ -13,13 +13,17 @@ path = 'github.com/theNewDynamic/gohugo-theme-ananke/v2'
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Pagination.pagerSize = 5                  # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = "G-QMSKCKXMJG"
+#googleAnalytics = "G-QMSKCKXMJG"
 enableRobotsTXT = true
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-QMSKCKXMJG'
 
 [languages]
 [languages.en]
-title = "Syed Rameez Rehman"
-#title = "Ananke"
+title = "Rameez's Blog"
+description = "Musings on Technology, Finance and Life."
 weight = 1
 contentDir = "content/"
 
