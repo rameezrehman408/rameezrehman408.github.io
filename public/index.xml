@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rameez&#39;s Blog</title>
+    <title>Rameez&#39;s Website</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content on Rameez&#39;s Blog</description>
+    <description>Recent content on Rameez&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 17 Feb 2025 20:23:31 +0500</lastBuildDate>
@@ -49,6 +49,20 @@
       <pubDate>Mon, 07 Mar 2022 00:00:00 +0500</pubDate>
       <guid>http://localhost:1313/posts/preparing-for-ceh-practical/</guid>
       <description>&lt;p&gt;Ahoy Mates!&#xA;I have always been interested in Pen-testing but it hasn&amp;rsquo;t been my day job yet. Avoiding the Certs vs. skills discussion, I want to acquire 1-2 basic pen-testing certs to round out my profile in Cyber Security. Considering that, last year I applied for EC-Council&amp;rsquo;s CEH scholarship and received the scholarship and I must appear for the practical exam within 1-year. Since then it has been 3-4 months without any progress on the preparation.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/aboutme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/</guid>
+      <description>&lt;p&gt;This is about Me page.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Products</title>
+      <link>http://localhost:1313/products/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/products/</guid>
+      <description>&lt;p&gt;This is products page.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

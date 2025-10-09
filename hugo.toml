@@ -22,8 +22,8 @@ enableRobotsTXT = true
 
 [languages]
 [languages.en]
-title = "Rameez's Blog"
-description = "Musings on Technology, Finance and Life."
+title = "Rameez's Website"
+description = "Rameez's musings on Technology, Finance and Life."
 weight = 1
 contentDir = "content/"
 
@@ -37,6 +37,22 @@ contentDir = "content/"
 changefreq = "monthly"
 priority = 0.5
 filename = "sitemap.xml"
+
+
+[menus]
+  [[menus.main]]
+    name = 'Blog'
+    pageRef = '/'
+    weight = 10
+  [[menus.main]]
+    name = 'Products'
+    pageRef = '/products'
+    weight = 20
+  [[menus.main]]
+    name = 'About Me'
+    pageRef = '/aboutme'
+    weight = 30
+
 
 [params]
 subtitle = ""
@@ -53,13 +69,9 @@ background_color_class = "bg-black"
 recent_posts_number = 5
 show_reading_time = true
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/rameezrehman408"
-
-[params.ananke.social.linkedin]
-username = "Syed Rameez Rehman"
-profilelink = "https://linkedin.com/in/rameez-infosec/"
+#[params.ananke.social.linkedin]
+#username = "Syed Rameez Rehman"
+#profilelink = "https://linkedin.com/in/rameez-infosec/"
 
 [ananke.social.follow]
 new_window_icon = false
@@ -68,3 +80,7 @@ networks = [
   "bluesky",
   "linkedin"
 ]
+
+[[params.ananke_socials]]
+name = "twitter"
+url = "https://twitter.com/rameezrehman408"
