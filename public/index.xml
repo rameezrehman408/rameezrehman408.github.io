@@ -55,7 +55,7 @@
       <link>http://localhost:1313/aboutme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/aboutme/</guid>
-      <description>&lt;p&gt;This is about Me page.&lt;/p&gt;</description>
+      <description>&lt;figure&gt;&lt;img src=&#34;assets/images/Formal_Pic.jpg&#34;&gt;&lt;figcaption&gt;&#xA;      &lt;h4&gt;A handsome Info-Sec Professional in Suit&lt;/h4&gt;&#xA;    &lt;/figcaption&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;h1 id=&#34;an-internet-security-professional&#34;&gt;An internet security professional!&lt;/h1&gt;&#xA;&lt;p&gt;Sounds Cheesy? it&amp;rsquo;s true! Let me explain.&lt;/p&gt;&#xA;&lt;p&gt;(TLDR: An introspective rant.)&lt;/p&gt;&#xA;&lt;h1 id=&#34;experience&#34;&gt;Experience&lt;/h1&gt;&#xA;&lt;p&gt;I am an information security professional with almost a decade of experience in Applied Cryptography, GRC, Secure Hardware Development, Android Security, AI and Malware.&lt;/p&gt;&#xA;&lt;h2 id=&#34;current-role&#34;&gt;Current Role&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-nadra-aug-2025---present-as-consultant-public-key-infrastructure-expert&#34;&gt;@ NADRA [Aug 2025 - present] as Consultant (Public Key Infrastructure Expert)&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://nadra.gov.pk&#34;&gt;National Database and Registration Authority (NADRA)&lt;/a&gt; as the lead implementor of &lt;a href=&#34;http://localhost:1313/deep&#34;&gt;Digital Economy Enhancement Project (DEEP)&lt;/a&gt; has the responsibility to provide digital ID to Pakistani citizens. This digital ID is developed on the foundations of Public Key Infrastructure; wherein my role is of the PKI Operations Manager.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Products</title>
