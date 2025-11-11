@@ -1,6 +1,6 @@
 +++
 date = '2025-10-10T00:00:00+05:00'
-draft = true
+draft = false
 title = 'DEEP (Digital Economy Enhancement Project)'
 +++
 
