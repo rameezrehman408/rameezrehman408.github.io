@@ -1,6 +1,5 @@
 baseURL = "https://rameezrehman408.github.io/"
 languageCode = "en-us"
-# theme = ["github.com/theNewDynamic/gohugo-theme-ananke/v2"]
 resourceDir = "../resources"
 
 [module]
@@ -15,6 +14,7 @@ SectionPagesMenu = "main"
 Pagination.pagerSize = 5                  # this is set low for demonstrating with dummy content. Set to a higher number
 #googleAnalytics = "G-QMSKCKXMJG"
 enableRobotsTXT = true
+
 
 [services]
   [services.googleAnalytics]

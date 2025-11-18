@@ -23,7 +23,7 @@ __EdDSA__:
 
 # European Telecommunications Standards Institute (ETSI)
 As per ETSI TS 119 312 V1.4.3 (2023-08) (Technical Specifications for Electronic Signatures and Infrastructures (ESI); Cryptographic Suites) following are the recommended elliptic curves for their usage in electronic signatures:
-<insert table here.>
+
 
 # Computational Complexity
 As per NIST’s publication NIST Special Publication 800-57 Part 1 Revision 5, following are the comparable security strengths (i.e. brute force effort it takes to break an algorithm) of symmetric block cipher (i.e. AES) and asymmetric algorithms (i.e. ECDSA, EdDSA, etc.)
