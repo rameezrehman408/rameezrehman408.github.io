@@ -5,14 +5,9 @@ title = 'About Me'
 featured_image = 'assets/images/Formal_Pic.jpg'
 +++
 
-<!--{{< figure src="/Formal_Pic.jpg" title="A handsome Info-Sec Professional" >}} -->
 {{< figure src="/Formal_Pic.jpg" title="Its me, Rameez, infront of Pakistan's National Assembly Building." alt="Most handsome InfoSec Professional. You have to believe me, as you can't see my picture." width="250" >}}
 
 # An (almost) internet security professional!
-<!--{{ $image := resources.Get "assets/images/Formal_Pic.jpg" }}
-{{< figure src="/images/Formal_Pic.jpg" title="A beautiful landscape" alt="Landscape image" width="600" >}}
-![A handsome Info-Sec Professional in Suit](/images/Formal_Pic.jpg "Syed Rameez Rehman") -->
-
 
 Sounds Cheesy? it's true! Let me explain.
 
