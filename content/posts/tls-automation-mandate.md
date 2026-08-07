@@ -4,6 +4,7 @@ date: 2026-07-29
 description: "An engineering deep-dive into why manual certificate management is an operational and security liability in the era of short-lived certificates."
 tags: ["PKI", "TLS", "DevSec  Ops", "Automation"]
 categories: ["Security Briefings"]
+draft = false
 ---
 
 Let’s be honest: if your deployment workflow still involves an engineer manually downloading a `.crt`, pasting it into a web server configuration, and praying to the gods of uptime that they don't forget to do it again in 90 days... you aren't running a production environment. You are running a time bomb.
