@@ -1,6 +1,6 @@
 +++
 date = '2025-11-18T00:00:00+05:00'
-draft = true
+draft = false
 title = 'Type of Investing Active or Passive - An Introduction'
 +++
 
